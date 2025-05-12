@@ -1,10 +1,11 @@
-﻿﻿#include <iostream>  // Επιτρέπει την είσοδο και έξοδο δεδομένων από και προς την κονσόλα
+
 #include <fstream>   // Παρέχει λειτουργίες για ανάγνωση και εγγραφή αρχείων
 #include <sstream>   // Χρησιμοποιείται για επεξεργασία string σαν να ήταν ροές δεδομένων (π.χ. istringstream, ostringstream)
 #include <string>    // Περιέχει τον τύπο string και συναρτήσεις χειρισμού string
 #include <vector>    // Παρέχει τον δυναμικό πίνακα vector και τις συναρτήσεις του
 #include <cstdlib>   // Περιλαμβάνει συναρτήσεις της C όπως rand(), system(), exit() για βασικές λειτουργίες
 #include <chrono>    // Παρέχει εργαλεία για μέτρηση και διαχείριση του χρόνου
+#include <iostream>  // Επιτρέπει την είσοδο και έξοδο δεδομένων από και προς την κονσόλα
 #include <thread>    // Επιτρέπει την χρήση νημάτων (threads) και καθυστερήσεων, π.χ. this_thread::sleep_for()
 #include <iomanip>   // Παρέχει ρυθμίσεις μορφοποίησης εξόδου, όπως αριθμητική ακρίβεια (π.χ. setprecision())
 using namespace std;
